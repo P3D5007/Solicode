@@ -1,0 +1,9 @@
+.conteneur-articles {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.boite-fluide {
+    max-width: 600px;
+    background: #22c55e;
+}

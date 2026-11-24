@@ -1,0 +1,20 @@
+Fond principal
+Ivoire très clair — #F8F8EE
+
+Texte et titres
+Noir doux — #171717
+
+Bouton Get Started
+Noir — #111111
+
+Étoile décorative
+Jaune doré — #F5B72B
+-----------------------
+Ajouter dans le <head>:
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+font-family: 
+'Poppins'
+'Amatic SC' (pour le style manuscrit)

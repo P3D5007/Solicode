@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    background-color: #F8F8EE;
+}
+
+#store-logo a{
+    display: flex;
+    text-decoration: none;
+    color: #171717;
+    font-family: 'Poppins', 'Amatic SC';
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+#navigation-bar{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+#navigation-bar a{
+    text-decoration: none;
+    color: #171717;
+    font-family: 'Poppins', 'Amatic SC';
+}
+
+#login-button{
+    display: flex;
+    margin-left: 1000px;
+    margin-top: -20px;
+}
+
+#login-button a{
+    text-decoration: none;
+    color: #171717;
+    font-family: 'Poppins';
+}
+
+#get-started{
+    display: flex;
+    margin-left: 1100px;
+    margin-top: -30px;
+    background-color: #171717;
+    color: #F8F8EE;
+    padding: 10px 12px 10px 20px;
+    border-radius: 5px;
+    max-width: 90px;
+}
+
+#get-started a{
+    text-decoration: none;
+    color: #F8F8EE;
+    font-family: Arial, sans-serif;
+}
+
+#opening{
+    font-family: Arial, sans-serif;
+    margin-left: 60px;
+    margin-top: 110px;
+}
+
+#main-title{
+    font-family: 'Amatic SC';
+    margin-left: 60px;
+    font-size: 70px;
+}
+
+#paragraph{
+    font-family: arial, sans-serif;
+    margin-left: 60px;
+    margin-top: -10px;
+    line-height: 1.5;
+}
+
+section img{
+    margin-left: 500px;
+    object-fit: cover;
+    margin-top: -430px;
+    width: 60%;
+}
+
+#search-box{
+    font-family: Arial, sans-serif;
+    margin-left: 100px;
+    margin-top: -70px;
+    border: 1px solid #171717;
+    border-radius: 30px;
+    max-width: 140px;
+    padding: 10px 30px 10px 30px;
+}

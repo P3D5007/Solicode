@@ -1,0 +1,39 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0; 
+}
+
+.Logo {
+    background-color: #F8F0E5;
+}
+
+.Logo div img {
+    box-sizing: content-box;
+    max-width: 27px;
+    margin: 5px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.Logo a {
+    text-decoration: none;
+    font-family: Poppins, arial;
+    color: #2C1A10;
+    padding-left: 45px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-bottom: -20px;
+}
+
+.Logo span img {
+    display: flex;
+    padding-left: 805px;
+}
+
+.Logo h1 {
+    color: #2C1A10;
+    font-family: poppins, arial;
+}

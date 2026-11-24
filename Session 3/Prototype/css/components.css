@@ -1,0 +1,197 @@
+.logo {
+  font-family: Georgia, serif;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.logo-sombre {
+  color: #102858;
+}
+
+.logo-couleur {
+  color: #ffc43d;
+}
+
+.liens-navigation a {
+  color: #435a7e;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.liens-navigation a.actif {
+  color: #1769e8;
+}
+
+.bouton-connexion,
+.bouton-principal,
+.bouton-secondaire {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.bouton-connexion {
+  color: #102858;
+  background: #ffd04a;
+}
+
+.bouton-principal {
+  color: white;
+  background: #1769e8;
+}
+
+.bouton-secondaire {
+  color: #102858;
+  background: white;
+  border: 1px solid #e5e7eb;
+}
+
+.icone-fleche {
+  width: 17px;
+}
+
+.surtitre {
+  margin: 0;
+  color: #6f9be8;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.banniere-accueil h1 {
+  margin: 0;
+  color: #102858;
+  font-family: Georgia, serif;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 1.05;
+}
+
+.banniere-accueil h1 span {
+  color: #1769e8;
+}
+
+.texte-banniere {
+  max-width: 600px;
+  margin: 20px 0;
+  color: #607596;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.actions-banniere {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.icone-avantage {
+  display: inline-block;
+  padding: 15px;
+  margin-right: 12px;
+  border-radius: 50%;
+}
+
+.icone-avantage img {
+  width: 28px;
+}
+
+.icone-avantage.bleu,
+.icone-carte.bleu {
+  background: #e0edff;
+}
+
+.icone-avantage.jaune,
+.icone-carte.jaune {
+  background: #fff2d6;
+}
+
+.avantage h2 {
+  margin: 0;
+  color: #102858;
+  font-size: 14px;
+}
+
+.avantage p {
+  margin: 4px 0 0;
+  color: #607596;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.entete-formations h2 {
+  margin: 0;
+  color: #102858;
+  font-family: Georgia, serif;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.lien-voir-tout,
+.lien-formation {
+  color: #1769e8;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.image-formation {
+  width: 38%;
+}
+
+.contenu-formation {
+  padding: 12px;
+}
+
+.icone-carte {
+  display: inline-block;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.icone-carte img {
+  width: 22px;
+}
+
+.carte-formation h3 {
+  margin: 8px 0;
+  color: #102858;
+  font-family: Georgia, serif;
+  font-size: 16px;
+}
+
+.carte-formation p {
+  margin: 8px 0;
+  color: #607596;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.identite-pied-de-page p {
+  margin: 8px 0 0;
+  color: #607596;
+  font-size: 12px;
+}
+
+.navigation-pied-de-page {
+  display: flex;
+  gap: 20px;
+  color: #102858;
+  font-size: 13px;
+}
+
+.liens-sociaux {
+  display: flex;
+  gap: 8px;
+}
+
+.icone-social {
+  display: inline-block;
+  padding: 6px 9px;
+  border-radius: 50%;
+  color: white;
+  background: #102858;
+  font-weight: 700;
+}

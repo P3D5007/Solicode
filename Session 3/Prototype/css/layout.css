@@ -1,0 +1,107 @@
+.en-tete-site {
+  padding: 0 7.2%;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.barre-navigation {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.liens-navigation {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.conteneur-banniere {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 32px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contenu-banniere {
+  flex: 1;
+}
+
+.image-banniere {
+  width: 52%;
+}
+
+.section-avantages {
+  padding: 16px 7.2%;
+  background: white;
+}
+
+.liste-avantages {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avantage {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.conteneur-formations {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-formations {
+  padding: 40px 7.2%;
+  background: #edf5ff;
+}
+
+.entete-formations {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.grille-formations {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.carte-formation {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.contenu-formation {
+  flex: 1;
+}
+
+.pied-de-page {
+  padding: 24px 7.2%;
+  background: white;
+  border-top: 1px solid #e5e7eb;
+}
+
+.conteneur-pied-de-page {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}

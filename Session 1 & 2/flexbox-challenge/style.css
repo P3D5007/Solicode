@@ -1,0 +1,275 @@
+/* =========================================================
+   DÉJÀ FAIT : ne touchez pas à cette partie
+   Couleurs, remise à zéro, textes et boutons
+   ========================================================= */
+
+:root {
+  --cobalt: #2340d9;
+  --jaune: #ffc93c;
+  --corail: #d9412b;
+  --encre: #14142b;
+  --gris: #55566b;
+  --fond: #f3f4fa;
+  --blanc: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--fond);
+  color: var(--encre);
+  font:
+    400 16px/1.5 "DM Sans",
+    sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+.logo span {
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+h1 {
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 1.05;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+h3 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.logo span {
+  font-size: 26px;
+  font-weight: 800;
+}
+.menu a {
+  font-weight: 500;
+}
+.surtitre {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--jaune);
+}
+.intro {
+  font-size: 18px;
+}
+.lien-fort {
+  font-weight: 700;
+  color: var(--cobalt);
+}
+.genre {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--corail);
+}
+.artiste {
+  font-weight: 500;
+  color: var(--gris);
+}
+.description {
+  font-size: 15px;
+  color: var(--gris);
+}
+.prix {
+  font-size: 20px;
+  font-weight: 700;
+}
+.avantage-titre {
+  font-weight: 700;
+}
+.avantage-texte {
+  font-size: 14px;
+  opacity: 0.75;
+}
+.pied-bas {
+  font-size: 14px;
+  opacity: 0.75;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.btn-sombre {
+  background: var(--encre);
+  color: var(--blanc);
+}
+.btn-jaune {
+  background: var(--jaune);
+  color: var(--encre);
+}
+.btn-contour {
+  border: 2px solid var(--blanc);
+  color: var(--blanc);
+  padding: 10px 20px;
+}
+
+/* =========================================================
+   À VOUS DE JOUER : écrivez votre CSS ci-dessous
+   ========================================================= */
+
+/* Conteneur général (.page) */
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* ZONE 1 : en-tête */
+.entete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.entete img {
+  width: 40px;
+  height: 40px;
+}
+.entete span {
+  font-size: 26px;
+  font-weight: 800;
+}
+ .menu {
+  display: flex;
+  gap: 20px;
+}
+.menu a:hover {
+  color: var(--jaune);
+}
+.btn-sombre {
+  background: var(--encre);
+  color: var(--blanc);
+}
+/* ZONE 2 : bannière */
+.banniere {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  background: var(--cobalt);
+  color: var(--blanc);
+  border-radius: 28px;
+  padding: 52px 52px 40px 52px;
+  overflow: hidden;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+.banniere-texte {
+  max-width: 560px;
+  text-align: left;
+}
+
+.surtitre {
+  color: var(--jaune);
+  margin-bottom: 16px;
+  letter-spacing: 0.12em;
+}
+
+.banniere h1 {
+  color: var(--blanc);
+  font-size: clamp(40px, 4vw, 64px);
+  line-height: 0.96;
+  letter-spacing: -0.04em;
+  margin-bottom: 18px;
+}
+
+.intro {
+  max-width: 530px;
+  font-size: 18px;
+  line-height: 1.45;
+  color: var(--blanc);
+  margin-bottom: 26px;
+}
+
+.banniere-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.banniere .btn {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 0 22px;
+}
+
+.banniere .btn-jaune {
+  background: var(--jaune);
+  color: var(--encre);
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.08);
+}
+
+.banniere .btn-contour {
+  border: 2px solid var(--blanc);
+  background: transparent;
+  color: var(--blanc);
+  padding: 0 24px;
+}
+
+.banniere-image {
+  width: 430px;
+  max-width: 100%;
+  height: auto;
+}
+/* ZONE 3 : sélection */
+.selection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.selection-titre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.lien-fort {
+  color: var(--cobalt);
+  font-weight: 700;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+.lien-fort:hover {
+  text-decoration: underline;
+}
+/* ZONE 4 : pied de page */
